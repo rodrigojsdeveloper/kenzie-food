@@ -20,6 +20,7 @@ const Input = ({ label, type }: InputProps) => {
         autoComplete="off"
         onChange={handleInputChange}
         className={hasValue ? "has-value" : ""}
+        required={true}
       />
       <Label className={hasValue ? "has-value" : ""}>{label}</Label>
     </InputContainer>
