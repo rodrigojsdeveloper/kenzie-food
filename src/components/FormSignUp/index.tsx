@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Container } from "./style";
 import { Button } from "../Button";
 import { Input } from "../Input";
@@ -7,7 +8,7 @@ const FormSignUp = () => {
     <Container>
       <div>
         <h2>Cadastro</h2>
-        <a>Retornar para login</a>
+        <Link to="/signin">Retornar para login</Link>
       </div>
 
       <form>
