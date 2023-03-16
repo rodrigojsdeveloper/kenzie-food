@@ -1,5 +1,5 @@
-const App = () => {
-  return <div></div>;
-};
+import { AllRoutes } from "./routes";
+
+const App = () => <AllRoutes />;
 
 export { App };
