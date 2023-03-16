@@ -14,6 +14,7 @@ export default createGlobalStyle`
   :root {
     // Primary Palette
     --color-primary: #FF2253;
+    --color-primary-20: #B6314E;
     --color-primary-50: #FFE9EE;
     --color-secondary: #4ACA94;
     --color-secondary-20: #39DF8F;
@@ -24,6 +25,10 @@ export default createGlobalStyle`
     --product-2: #FFF7F4;
     --product-3: #FFE4EA;
     --product-4: #F3EEF5;
+
+    --product-5: #F3D9CF;
+    --product-6: #EEB7C3;
+    --product-7: #E2C6EE;
   
     // Grey Scale Palette
     --grey-1: #F8F9FA;
