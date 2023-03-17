@@ -40,6 +40,7 @@ export default createGlobalStyle`
     // Colors default
     --color-white: #FFFFFF;
     --color-black: #000000;
+    --transparent: transparent;
 
     // Shadow
     --shadow-1: rgba(0, 0, 0, 0.5);
