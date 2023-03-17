@@ -23,7 +23,7 @@ const Container = styled.header`
     justify-content: space-between;
     align-items: center;
 
-    & > div {
+    & > div:nth-child(2) {
       width: 100%;
       max-width: 421px;
 
@@ -48,7 +48,19 @@ const Container = styled.header`
       flex-direction: column;
       align-items: flex-start;
 
-      & > div {
+      & > div:nth-child(1) {
+        width: 100%;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      & > div:nth-child(2) {
+        width: 100%;
+        max-width: unset;
+
         justify-content: center;
         margin-top: 15px;
 
@@ -63,4 +75,5 @@ const Container = styled.header`
     }
   }
 `;
+
 export { Container };
