@@ -1,9 +1,12 @@
 import { MenuHamburger } from "../MenuHamburguer";
 import { InputWithIcon } from "../InputWithIcon";
+import { useNavigate } from "react-router-dom";
 import { Container } from "./style";
 import { Button } from "../Button";
 
 const Header = () => {
+  const navigate = useNavigate();
+
   return (
     <Container>
       <div>
@@ -31,7 +34,11 @@ const Header = () => {
         <div>
           <InputWithIcon />
 
-          <Button color="grey" size="medium">
+          <Button
+            color="grey"
+            size="medium"
+            onClick={() => navigate("/signin")}
+          >
             Logout
           </Button>
         </div>

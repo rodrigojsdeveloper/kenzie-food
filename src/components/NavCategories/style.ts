@@ -8,14 +8,16 @@ const Container = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  overflow-x: auto;
-
   margin-bottom: 50px;
 
   & > button {
     & > img {
       margin-right: 15px;
     }
+  }
+
+  @media (max-width: 768px) {
+    display: none;
   }
 `;
 
