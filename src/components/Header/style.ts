@@ -9,7 +9,7 @@ const Container = styled.header`
   justify-content: center;
   align-items: center;
 
-  padding: 20px 115px;
+  padding: 20px 65px;
 
   background-color: var(--color-white);
   box-shadow: 0px 0px 40px -18px var(--shadow-3);
